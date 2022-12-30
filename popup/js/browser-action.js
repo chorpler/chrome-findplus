@@ -27,7 +27,7 @@ Find.register('Popup.BrowserAction', function (self) {
                 Find.Popup.OptionsPane.show(false);
                 Find.Popup.SavedExpressionsPane.show(false);
             } else if(e.code === 'KeyH' && e.ctrlKey && e.altKey) {
-                //CTRL+ALT+R => Toggle Replace Pane
+                //CTRL+ALT+H => Toggle Saved Expressions Pane
                 Find.Popup.SavedExpressionsPane.toggle();
                 Find.Popup.OptionsPane.show(false);
                 Find.Popup.ReplacePane.show(false);
